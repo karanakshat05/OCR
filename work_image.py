@@ -1,4 +1,7 @@
+import os
+from pathlib import path
 from PIL import Image
+
 print(5)
 img_file="data/page_01.jpg"
 img = Image.open(img_file)
